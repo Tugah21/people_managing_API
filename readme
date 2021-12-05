@@ -1,0 +1,16 @@
+curl url
+eg. curl 127.0.0.1:8000 
+
+install
+
+pip install uvicorn
+pip install fastapi
+pip install pydantic
+
+uvicorn 
+uvicorn filename:app --reload
+
+@app.get('/htmlfilename') 
+for what happens when you access that webpage
+
+@app.post('/')
